@@ -5,10 +5,6 @@
 # Last Updated: 1/9/2023
 #------------------------------------------------------------------------------
 
-# SNOWFLAKE ADVANTAGE: Snowpark Python programmability
-# SNOWFLAKE ADVANTAGE: Python UDFs (with third-party packages)
-# SNOWFLAKE ADVANTAGE: SnowCLI (PuPr)
-
 import sys
 from scipy.constants import convert_temperature
 
@@ -23,3 +19,4 @@ if __name__ == '__main__':
         print(main(*sys.argv[1:]))  # type: ignore
     else:
         print(main())  # type: ignore
+        print("hello")
